@@ -3,6 +3,6 @@ select
     first_name,
     last_name
 
-from {{ source('jaffle_shop', 'curtomers') }}
+from {{ source('jaffle_shop', 'customers') }}
 
 
